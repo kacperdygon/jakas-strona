@@ -4,51 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jakaś strona o html css i js">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <header><a href="#html_article"><div>
-            <img src="img/html.webp" alt="html-button">
+        <header>
+        <a href="#html_article"><div>
+            <img src="img/html.webp" alt="html button">
             <p>HTML</p>
         </div></a>
         <a href="#css_article"><div>
-            <img src="img/css.webp" alt="css-button">
+            <img src="img/css.webp" alt="css button">
             <p>CSS</p>
         </div></a>
         <a href="#js_article"><div>
-            <img src="img/js.webp" alt="js-button">
+            <img src="img/js.webp" alt="js button">
             <p>Javascript</p>
         </div></a>
 
     </header>
         <article id="html_article">
-            <h2>HTML</h2>
+            <h2 id="html-header">HTML</h2>
             <section>
-                <img src="img/html.webp" alt="html-logo">
+                
+                <img src="img/html.webp" alt="html logo">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales lacinia justo, vel posuere purus egestas vitae. Aliquam erat volutpat. Sed lacinia nunc felis, eu ultrices lorem lacinia at. Sed pellentesque laoreet quam, ac interdum nibh tempus posuere. Vestibulum non interdum urna, ut convallis tortor. Nullam luctus lacus orci, ut.</p>
             </section>
         </article>
 
         <article id="css_article">
+            <h2 id="css-header">CSS</h2>
             <section>
-                <p></p>
-                <img src="" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales lacinia justo, vel posuere purus egestas vitae. Aliquam erat volutpat. Sed lacinia nunc felis, eu ultrices lorem lacinia at. Sed pellentesque laoreet quam, ac interdum nibh tempus posuere. Vestibulum non interdum urna, ut convallis tortor. Nullam luctus lacus orci, ut.</p>
+                <img src="img/css.webp" alt="css logo" id="css-logo">
             </section></article>
 
         <article id="js_article">
+            <h2 id="js-header">Javascript</h2>
             <section>
-                <img src="" alt="">
-                <p></p>
+                <img src="img/js.webp" alt="js logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales lacinia justo, vel posuere purus egestas vitae. Aliquam erat volutpat. Sed lacinia nunc felis, eu ultrices lorem lacinia at. Sed pellentesque laoreet quam, ac interdum nibh tempus posuere. Vestibulum non interdum urna, ut convallis tortor. Nullam luctus lacus orci, ut.</p>
             </section></article>
 
         <article id="omn_article">
-            <section>
-                <p></p>
-                <img src="" alt="">
+            <h2 id="omn-header">O mnie</h2>
+            <section id="omn-section">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sodales lacinia justo, vel posuere purus egestas vitae. Aliquam erat volutpat. Sed lacinia nunc felis, eu ultrices lorem lacinia at. Sed pellentesque laoreet quam, ac interdum nibh tempus posuere. Vestibulum non interdum urna, ut convallis tortor. Nullam luctus lacus orci, ut.</p>
+                <!-- <img src="img/moje-zdjecie.webp" alt="moje zdjęcie" id="moje-zdjecie"> -->
             </section></article>
 
-        <article id="form_article"></article>
-        <footer></footer>
+        <article id="form_article">
+            <h2 id="contact-header">Kontant</h2>
+            <form>
+                
+                <div id="labels"><label for="name">Imię:</label><label for="surname">Nazwisko:</label><label for="email">E-mail:</label><label for="content">Treść:</label></div><div id="inputs"><input type="text" id="name"><input type="text" id="surname"><input type="text" id="email"><textarea type="text" id="content"></textarea><input type="submit" id="submit"></div>
+            </form>
+        </article>
+        <footer><p>&copy; Kacper Dygoń 2023</p></footer>
 </body>
 </html>
