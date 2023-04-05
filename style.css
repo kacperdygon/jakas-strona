@@ -79,10 +79,9 @@ a > div:hover {
   transition: scale 0.3s;
 }
 
-a {
+header > a {
   text-decoration: none;
   margin-bottom: 15vh;
-  height: fit-content;
 }
 
 #omn-href {
@@ -92,11 +91,19 @@ a {
   position: absolute;
 }
 
+#omn-href > img{
+  height:100%;
+}
+
 #form-href {
   top: 85vh;
   height: 10vh;
   right: 3vw;
   position: absolute;
+}
+
+#form-href > img{
+  height:100%;
 }
 
 /* ARTICLES */
