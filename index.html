@@ -7,6 +7,7 @@
     <meta name="description" content="jakaś strona o html css i js" />
     <title>Technologie Front-End</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="img/frontendicon.webp">
   </head>
   <body>
     <header>
@@ -85,14 +86,14 @@
           ><label for="email">E-mail:</label><label for="content">Treść:</label>
         </div>
         <div id="inputs">
-          <input type="text" id="name" /><input
+          <input type="text" id="name" required/><input
             type="text"
-            id="surname"
-          /><input type="text" id="email" /><textarea
+            id="surname" required
+          /><input type="text" id="email" required/><textarea
             type="text"
             id="content"
           ></textarea
-          ><input type="submit" id="submit" value="Prześlij" />
+          ><input type="submit" id="submit" value="Prześlij" required/>
         </div>
       </form>
     </article>
