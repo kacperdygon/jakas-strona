@@ -8,9 +8,15 @@ body {
   }
 
 body>a{
-    position:absolute;
+    position:fixed;
     top:1vh;
     left:1vw;
+    transition:0.3s;
+}
+
+body>a:hover{
+  scale:110%;
+  transition:0.3s;
 }
 
   body>a>img{

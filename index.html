@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,19 +12,19 @@
   <body>
     <header>
       <a href="#html_article"
-        ><div>
+        ><div aria-label="href to html article">
           <img src="img/html.webp" alt="html button" />
           <p>HTML</p>
         </div></a
       >
       <a href="#css_article"
-        ><div>
+        ><div aria-label="href to css article">
           <img src="img/css.webp" alt="css button" />
           <p>CSS</p>
         </div></a
       >
       <a href="#js_article"
-        ><div>
+        ><div aria-label="href to js article">
           <img src="img/js.webp" alt="js button" />
           <p>Javascript</p>
         </div></a
@@ -35,6 +35,7 @@
       <a href="#form_article" id="form-href"
         ><img src="img/contact-icon.webp" alt="o mnie"></a>
     </header>
+    <main>
     <article id="html_article">
       <h2 id="html-header">HTML</h2>
       <section>
@@ -43,7 +44,7 @@
           <b>HTML</b> to język znaczników używany do tworzenia stron internetowych. Jego rola obejmuje opisanie struktury informacji zawartych wewnątrz strony, nadając odpowiednie znaczenie semantyczne poszczególnym fragmentom tekstu, a także osadza obiekty plikowe, takie jak multimedia, bądź elementy baz danych pozwalające na tworzenie interaktywnych formularzy.
         </p>
       </section>
-      <div><a href="html.html">Więcej &#10140;</a></div>
+      <div aria-label="href to html website"><a href="html.html">Więcej &#10140;</a></div>
     </article>
 
     <article id="css_article">
@@ -54,7 +55,7 @@
         </p>
         <img src="img/css.webp" alt="css logo" id="css-logo" />
       </section>
-      <div><a href="css.html">Więcej &#10140;</a></div>
+      <div aria-label="href to css website"><a href="css.html">Więcej &#10140;</a></div>
     </article>
 
     <article id="js_article">
@@ -65,7 +66,7 @@
           <b>JavaScript</b> to skryptowy oraz wieloparadygmatowy język programowania stosowany najczęściej na stronach internetowych. Pozwala on na tworzenie reakcji poprzez reagowanie na zdarzenia, jak i walidację danych wprowadzanych w formularzach lub tworzenie złożonych efektów wizualnych. Język ten pozwala także na pisanie pełnoprawnych aplikacji.
         </p>
       </section>
-      <div><a href="javascript.html">Więcej &#10140;</a></div>
+      <div aria-label="href to js website"><a href="javascript.html">Więcej &#10140;</a></div>
     </article>
 
     <article id="omn_article">
@@ -90,13 +91,13 @@
             type="text"
             id="surname" required
           /><input type="text" id="email" required/><textarea
-            type="text"
             id="content"
           ></textarea
-          ><input type="submit" id="submit" value="Prześlij" required/>
+          ><input type="submit" id="submit" value="Prześlij"/>
         </div>
       </form>
     </article>
+    </main>
     <footer><p>&copy; Kacper Dygoń 2023</p></footer>
   </body>
 </html>
